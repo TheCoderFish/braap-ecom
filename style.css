@@ -1,0 +1,46 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.collection-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    border: 1px solid #667eea;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    flex: 1 0 400px;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.show-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 156px;
+}
+
+.center-button {
+    display: block;
+    /* border: 1px solid #667eea; */
+}
+.center-button :focus {
+    outline: none;
+    height: 45px;
+    /* border: 1px solid #667eea; */
+}
